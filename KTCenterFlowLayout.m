@@ -164,7 +164,7 @@
     // Build an alignment rect
     // |  |x-x-x-x|  |
     CGFloat alignmentWidth = aggregateItemWidths + aggregateInteritemSpacing;
-    CGFloat alignmentXOffset = CGFloat alignmentXOffset = self.minimumInteritemSpacing;
+    CGFloat alignmentXOffset = self.minimumInteritemSpacing;
 
     // Adjust each item's position to be centered
     CGRect previousFrame = CGRectZero;
